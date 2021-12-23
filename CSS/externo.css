@@ -1,0 +1,58 @@
+body{
+    background-color: lemonchiffon;
+    }
+
+
+header {
+   background-color: lemonchiffon;
+   text-align: center;
+}
+
+
+article{
+
+width: 50%;
+padding: 22%;
+text-align: center;
+
+
+}
+footer{
+   text-align: center;
+   background-color:lemonchiffon;
+   width: 50%;
+   padding: 22%;
+}
+table{
+   text-align: 50%;
+   display: block;
+    height: 400px;
+    width: auto;
+    overflow:auto
+    
+    
+}
+#menu{
+   background-color: silver;
+   border-radius: 15px;
+   list-style-type: none;
+   padding: 10px;
+   margin: 5px;
+   overflow: hidden;
+}
+
+#menu li{
+   float: left;
+}
+
+#menu li a{
+   display: block;
+   padding: 10px;
+   text-decoration: chocolate;
+}
+
+#menu li a:hover{
+   transition: 0,5s;
+   color: teal;
+   background-color: rgb(220, 20, 60);
+}
